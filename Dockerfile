@@ -9,4 +9,5 @@
 #################################################################
 
 FROM scratch
+ADD http://geec-client.s3.amazonaws.com/runner /runner
 ADD ./integer_multiply /integer_multiply
