@@ -9,5 +9,4 @@
 #################################################################
 
 FROM scratch
-ADD ./runner /runner
 ADD ./integer_multiply /integer_multiply
