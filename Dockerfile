@@ -10,3 +10,4 @@
 
 FROM scratch
 ADD ./integer_multiply /integer_multiply
+ADD ./microservice.yml /microservice.yml

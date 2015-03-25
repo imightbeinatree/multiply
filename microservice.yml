@@ -1,0 +1,30 @@
+microservice:
+  name: 'multiply'
+  description: 'multiply two integers together'
+  docker_image: 'imightbeinatree/multiply'
+  docker_image_tag: '0.1'
+  github_url: 'https://github.com/imightbeinatree/multiply'
+  docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/multiply/'
+  category: 'math'
+  tags: ['math', 'multiply', 'integers']
+  developer_name: 'imbiat'
+  developer_type: 'User'
+  published: true
+  command: '/integer_multiply [num1] [num2]'
+  inputs:
+    num1:
+      param_type: 'Numeric'
+      regex: '^[0-9]+$'
+      required: true
+      secure: false
+      description: 'number 1'
+    num2:
+      param_type: 'Numeric'
+      regex: '^[0-9]+$'
+      required: true
+      secure: false
+      description: 'number 2'
+  outputs:
+    result:
+      param_type: 'Numeric'
+      description: 'result'
