@@ -3,8 +3,8 @@ microservice:
   name: 'multiply'
   description: 'multiply two integers together'
   docker_image: 'imightbeinatree/multiply'
-  docker_image_tag: '0.2'
-  github_url: 'https://github.com/imightbeinatree/multiply'
+  docker_image_tag: '0.3'
+  repo_url: 'https://github.com/imightbeinatree/multiply'
   docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/multiply/'
   category: 'math'
   tags: ['math', 'multiply', 'integers']
